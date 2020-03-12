@@ -388,6 +388,103 @@ footer {
   background-color: white;
 }
 
+#footer .footer_box {
+  max-width: 250px;
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 0 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  overflow: inherit;
+  vertical-align: top;
+}
+#footer .footer_box {
+  max-width: 250px;
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 0 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  overflow: inherit;
+  vertical-align: top;
+  /* height: 220px; */
+}
+
+#footer .footer_box img{
+  width: auto;
+  max-width: 250px;
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer .footer_box .social{
+  color: lightblue;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #1a3855;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+#footer .footer_box .la_firma{
+  color: #1a3855;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#footer .footer_box .links{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+  text-decoration: none;
+  color: Black;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+#footer .footer_box .datos_footer{
+  color: #1a3855;
+}
+
+#footer .footer_box div i{
+  color: lightblue;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #1a3855;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#footer .copyright{
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+
+
 section {
   padding: 80px;
 }

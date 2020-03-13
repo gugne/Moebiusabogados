@@ -216,12 +216,12 @@
       </div>
       </div>
       <div class="Contact">
-        <form >
-          <div><input type="text" placeholder="Nombre"></div>
-          <div><input type="text" placeholder="Email"></div>
-          <div><input type="text" placeholder="Tu teléfono celular"></div>
-          <div><textarea rows="10" placeholder="Tu Mensaje" ></textarea></div>
-          <button>ENVIAR</button>
+        <form method="post" action="contactform.php">
+          <div><input name="name" type="text" placeholder="Nombre" required></div>
+          <div><input name="mail" type="email" placeholder="Correo Electrónico" required></div>
+          <div><input name="phone" type="text" placeholder="Tu teléfono celular"></div>
+          <div><textarea name="message" rows="10" placeholder="Tu Mensaje" ></textarea></div>
+          <button type="submit" name="submit">ENVIAR</button>
         </form>
       </div>
     </div>

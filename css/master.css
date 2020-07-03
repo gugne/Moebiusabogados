@@ -180,12 +180,13 @@ header nav a.active{
 #services .box ul {
   margin-left: -10px;
   text-align: left;
-  font-size: 20px;
+  font-size: 16px;
   margin-right: 20px;
 }
 
 #services .box ul li {
   padding-bottom: 20px;
+  font-family: 'Open Sans'
 }
 
 /* tERMINA SERVICES */
